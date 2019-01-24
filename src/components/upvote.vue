@@ -26,12 +26,13 @@
 </template>
 
 <script>
+  import {eventBus} from './../eventBus.js';
 export default {
   props: ['data'],
   methods: {
     inc(id) {
-      // console.log(id);
-      this.$emit('increment', id);
+      console.log(id);
+      eventBus.$emit('increment', id);
     }
   }
 }
