@@ -1,0 +1,38 @@
+export const submissions = [
+  {
+    id: 1,
+    title: 'Yellow Pail',
+    description: 'On-demand sand castle construction expertise.',
+    url: '#',
+    votes: 16,
+    avatar: './src/assets/images/user.png',
+    submissionImage: './../assets/images/picture.png',
+  },
+  {
+    id: 2,
+    title: 'anonymous Title',
+    description: 'On-demand sand castle construction expertise.',
+    url: '#',
+    votes: 16,
+    avatar: './src/assets/images/boy.png',
+    submissionImage: './../assets/images/picture.png',
+  },
+  {
+    id: 3,
+    title: 'Yellow Pail',
+    description: 'On-demand sand castle construction expertise.',
+    url: '#',
+    votes: 16,
+    avatar: './src/assets/images/girl.png',
+    submissionImage: './../assets/images/picture.png',
+  },
+  {
+    id: 4,
+    title: 'Yellow Pail',
+    description: 'On-demand sand castle construction expertise.',
+    url: '#',
+    votes: 16,
+    avatar: './src/assets/images/sasha.png',
+    submissionImage: './../assets/images/picture.png',
+  },
+]
